@@ -1,0 +1,32 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-button {
+  padding: 16px 32px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  color: #464646;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 3px 3px 10px rgba(47, 47, 47, 0.7);
+}
+
+.glass-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
